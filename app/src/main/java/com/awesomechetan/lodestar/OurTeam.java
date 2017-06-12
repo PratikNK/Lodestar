@@ -26,12 +26,12 @@ public class OurTeam extends AppCompatActivity {
 
         listdata1.add(new DataItem(R.drawable.anand,"Anand Sudarshan","Chairman"));
         listdata1.add(new DataItem(R.drawable.murlidhar,"Murlidhar S","Founder and CEO"));
-        listdata1.add(new DataItem(R.drawable.subodh,"Subodh Jindal","Co-Founder and COO"));
+        listdata1.add(new DataItem(R.drawable.subodh_jindal,"Subodh Jindal","Co-Founder and COO"));
         listdata1.add(new DataItem(R.drawable.rajeev,"Rajeev Menon","Product Head"));
         listdata1.add(new DataItem(R.drawable.tarun,"Tarun Krishnamurthy","Chief Technology Officer (CTO)"));
 
-        listdata2.add(new DataItem(R.drawable.natarajan,"Dr V Natarajan",""));
-        listdata2.add(new DataItem(R.drawable.vikram,"Vikram D Rao",""));
+        listdata2.add(new DataItem(R.drawable.natarajan,"Dr V natarajan",""));
+        listdata2.add(new DataItem(R.drawable.vikram,"vikram D Rao",""));
         listdata2.add(new DataItem(R.drawable.madan,"Madan Padaki",""));
         listdata2.add(new DataItem(R.drawable.ponappa,"P G Ponappa",""));
 
