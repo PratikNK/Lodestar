@@ -14,5 +14,6 @@
     <dimen name="card_radius">10dp</dimen>
     <dimen name="steps_pager_height">250dp</dimen>
     <dimen name="card_gap">5dp</dimen>
+    <dimen name="text_from_end">15dp</dimen>
     <dimen name="icon_padding">20dp</dimen>
 </resources>
