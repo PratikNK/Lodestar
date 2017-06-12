@@ -4,10 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.awesomechetan.lodestar.OurTeam">
+    tools:context="com.awesomechetan.lodestar.OurTeam"
+    android:orientation="vertical">
+    <item android:title="Communicate">
+
+    </item>
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="The Team"/>
+        android:text="The Team"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="269dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="Advisors"
+        android:textStyle="bold"
+        tools:text="Advisors" />
+
+    <ListView
+        android:id="@+id/listview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 
 </LinearLayout>

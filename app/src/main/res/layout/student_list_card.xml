@@ -8,7 +8,7 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="60dp"
         android:src="#000000"
-        android:id="@+id/studentProfileIv"
+        android:id="@+id/dpIv"
         android:layout_height="60dp"
         android:layout_margin="7dp"
         android:layout_alignParentTop="true"
@@ -16,24 +16,24 @@
         android:layout_marginStart="8dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="17sp"
         android:layout_marginTop="20dp"
-        android:layout_toEndOf="@+id/studentProfileIv"
+        android:layout_toEndOf="@+id/dpIv"
         android:text="Name"
 
         android:textAppearance="@style/TextAppearance.AppCompat.Notification.Title" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/desig"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Designation"
         android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-        android:layout_below="@+id/textView2"
-        android:layout_toEndOf="@+id/studentProfileIv" />
+        android:layout_below="@+id/name"
+        android:layout_toEndOf="@+id/dpIv" />
 
 
 </RelativeLayout>
