@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginStart="@dimen/card_gap"
+    android:layout_marginEnd="@dimen/card_gap"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context="com.awesomechetan.lodestar.WhatWeDo">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_gap"
+        android:layout_marginTop="@dimen/card_gap"
+        android:fontFamily="serif"
+        android:textSize="@dimen/slide_desc"
+        android:textColor="@android:color/secondary_text_light"
+        android:text="@string/steps_intro" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_white"
+        android:layout_marginTop="@dimen/card_gap"
+        app:cardCornerRadius="@dimen/card_radius">
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/steps_pager_height"
+                tools:showIn="@layout/activity_what_we_do">
+
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/view_pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/layoutDots"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dots_height"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/dots_margin_bottom"
+                    android:gravity="center"
+                    android:orientation="horizontal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha=".5"
+                    android:layout_above="@id/layoutDots"
+                    android:background="@android:color/white" />
+            </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:layout_marginStart="@dimen/card_gap"
+        android:layout_marginEnd="@dimen/card_gap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/true_career_q"
+        android:layout_marginTop="@dimen/card_gap"
+        android:textSize="@dimen/slide_title"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_marginStart="@dimen/card_gap"
+        android:layout_marginEnd="@dimen/card_gap"
+        android:id="@+id/textView4"
+        style="@android:style/TextAppearance.DeviceDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textSize="@dimen/slide_desc"
+        android:text="@string/true_career_a"
+        android:textColor="@android:color/secondary_text_light" />
+
+
+
+
+</LinearLayout>
+</ScrollView>

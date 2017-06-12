@@ -3,6 +3,39 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Settings</string>
+
+    <string name="discover">Discover</string>
+    <string name="decide">Decide</string>
+    <string name="determine">Determine</string>
+
+    <string name="discover_content"><i>Test to analyse strength &amp; interest and </i><i>Explore the world of jobs (250+ careers)</i></string>
+    <string name="determine_content"><i>Education path, </i><i>Exams and </i><i>Institutes</i></string>
+    <string name="decide_content">
+        <i>Career,</i>
+        <i>Stream &amp; electives,</i>
+        <i>Exams,</i>
+        <i>Tutorials and</i>
+        <i>College</i></string>
+
+    <string name="steps_intro">In just 3 sessions, we uncover and set the course for your child\'s true career path.</string>
+
+    <string name="true_career_q">What is a true career path?</string>
+    <string name="true_career_a">\nA true career path is one that :\n\n
+
+1)	Speaks to a child\'s passions - A career that does not connect with a child\'s passions will affect their performance in the long term. A career that is in line with a child\'s passions will motivate them to excel every step of the way.For example, a child might be passionate about languages. A career in finance may not motivate them to give it their 100%.\n\n
+
+2) Aligns with their strengths - It is important that a child choose a career that matches their strengths. For example, a child may be interested in a career aerospace. However, their poor aptitude for science or mathematics may limit the success they might be able to achieve.\n\n
+
+3) Has potential for growth - Choosing a career based on strength and passion alone without considering the scope for it may not be sustainable for a child\'s future. Or, the skills and knowledge they learn will be wasted if the chosen industry does not have a bright outlook. For example, a child might be interested in. Discovering a child\'s true career path involves:\n
+
+\t<b>A scientific approach:</b>Scientific tests and a complex algorithm to uncover a child\'s true potential and match their passion and strengths to the right career and education path.\n
+
+\t<b>Exploring 250+ career options:</b> All researched and converted into guide books validated by industry practitioners.\n
+
+\t<b>Authentic data:</b> On 200+ colleges, 100+ exams, 100+ special courses, and 15 of India\'s best tutorials.\n
+
+\t<b>Individual attention:</b> Every child gets 3 one-to-one sessions to find a true career path.\n
+
+\t<b>End-to-end decisions:</b> From career, stream and electives to exams, tutorials and college.</string>
 </resources>
